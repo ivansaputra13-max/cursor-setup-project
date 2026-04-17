@@ -27,3 +27,15 @@
 
 ## Conclusion
 Successfully set up project and version control using Git and GitHub.
+## Key Learnings
+
+- Not all tools or extensions are always available, especially across different environments
+- It's important to adapt and continue with available resources instead of getting blocked
+- Basic Git setup is essential for any development workflow
+- Cursor provides built-in AI capabilities that can replace external extensions in some cases
+
+## Reflection
+
+During this setup, I encountered missing extensions (Claude Code and Codex), which initially blocked progress. Instead of stopping, I investigated the limitations of Cursor's marketplace and continued using built-in features.
+
+This experience reinforced the importance of adaptability and problem-solving when working with new tools or environments.
