@@ -1,0 +1,29 @@
+# Cursor Setup Project
+
+## Tools Installed
+- Cursor IDE
+- Git
+- GitHub
+
+## Steps Completed
+1. Installed Cursor IDE
+2. Installed Git
+3. Initialized Git repository
+4. Created README file
+
+## Issues & Solutions
+
+### Git not recognized
+- Git was not installed
+- Installed Git and restarted Cursor
+
+### Claude Code not found
+- Not available in Cursor
+- Continued with built-in AI
+
+### Codex not found
+- Not available in marketplace
+- Continued without it
+
+## Conclusion
+Successfully set up project and version control using Git and GitHub.
