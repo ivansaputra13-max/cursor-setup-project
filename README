@@ -1,24 +1,102 @@
-# LinkedIn Organic Content Strategy for B2B SaaS
+# LinkedIn Organic Content Strategy for B2B SaaS — Research Repository
 
-## Objective
+## What This Is
 
-Research proven B2B SaaS operators who use LinkedIn to build audience, trust, and pipeline.
+This repository contains primary research for building a playbook on **LinkedIn organic content strategy for B2B SaaS companies**. The goal is to collect high-signal, practitioner-sourced content from 10 experts who have actually used LinkedIn to generate pipeline — not just write about it.
 
-## Project Structure
+The research will serve as the foundation for a practical, operator-ready playbook.
 
-- research/sources.md
-- research/linkedin-posts/
-- research/youtube-transcripts/
-- research/other/
+---
 
-## Why This Topic
+## Why I Chose This Topic
 
-LinkedIn is one of the highest-leverage organic growth channels for B2B SaaS.
+LinkedIn organic is the highest-ROI awareness channel available to early-stage and growth-stage B2B SaaS companies, with near-zero distribution cost and compounding returns. But most advice on the topic is either too generic ("post consistently!") or too tactical without strategic grounding.
 
-## Initial Insights
+The gap I want to close: **a practitioner-sourced playbook that connects LinkedIn content strategy to actual pipeline outcomes** — not vanity metrics. This requires learning from people who have built, measured, and iterated on LinkedIn as a revenue channel inside real B2B SaaS companies.
 
-1. Strong hooks increase attention
-2. Founder-led content builds trust
-3. Consistency compounds authority
-4. Clear positioning improves engagement
-5. Educational content performs best
+---
+
+## Repository Structure
+
+```
+/research
+  sources.md                         ← All 10 experts: LinkedIn, context, why they matter
+  /linkedin-posts
+    /justin-welsh/                   ← Posts collected manually from LinkedIn
+    /dave-gerhardt/
+    /chris-walker/
+    /lara-acosta/
+    /guillaume-moubeche/
+    /ross-simmonds/
+    /april-dunford/
+    /amanda-natividad/
+    /katelyn-bourgoin/
+    /devin-reed/
+  /youtube-transcripts/              ← Transcripts from YouTube content (via yt-dlp)
+  /other/                            ← Newsletters, reports, framework PDFs
+```
+
+---
+
+## The 10 Experts (Quick Reference)
+
+| Expert | Why They're Here |
+|--------|-----------------|
+| **Justin Welsh** | Built $2M+ solo business purely from LinkedIn. Proven content systems that generate inbound. |
+| **Dave Gerhardt** | Ex-CMO at Drift ($1B valuation). Coined "founder brand." Runs Exit Five — 5,600+ B2B marketers. |
+| **Chris Walker** | GTM advisor for SaaS $10M–$100M. Popularized dark social and demand gen framing. |
+| **Lara Acosta** | One of LinkedIn's fastest-growing B2B creators. Post production systems at scale. |
+| **Guillaume Moubeche** | CEO of lemlist. Built a $30M ARR SaaS brand almost entirely through founder-led LinkedIn content. |
+| **Ross Simmonds** | CEO of Foundation. The go-to voice on B2B content distribution strategy. |
+| **April Dunford** | Author of *Obviously Awesome*. Positioning expert — how to make LinkedIn content land with the right ICP. |
+| **Amanda Natividad** | VP Marketing at SparkToro. Pioneered "zero-click content" — content designed to give value without requiring a click. |
+| **Katelyn Bourgoin** | "Customer Whisperer." Buyer psychology → content that speaks directly to how B2B buyers make decisions. |
+| **Devin Reed** | Former Head of Content at Gong. Built content systems that tied directly to revenue at one of SaaS's fastest-growing companies. |
+
+Full annotations and links → [`/research/sources.md`](./research/sources.md)
+
+---
+
+## How Content Was Collected
+
+### LinkedIn Posts
+Collected manually by visiting each expert's LinkedIn profile → Activity → Posts. Each post saved as a `.md` file with date, engagement metrics (where visible), and post type noted.
+
+### YouTube Transcripts
+Collected using `yt-dlp` — free, no API key required.
+
+```bash
+yt-dlp --write-auto-sub --skip-download --sub-lang en \
+  --convert-subs srt \
+  -o "%(uploader)s - %(title)s" \
+  "VIDEO_URL"
+```
+
+### Other Materials
+- Richard van der Blom's LinkedIn Algorithm Insights Report 2024/2025
+- Exit Five newsletter issues (Dave Gerhardt)
+- SparkToro research referenced by Amanda Natividad
+
+---
+
+## Collection Status
+
+- [x] Topic selected
+- [x] 10 experts identified and annotated in `sources.md`
+- [x] Repo structure created
+- [x] LinkedIn posts collected — Justin Welsh
+- [x] LinkedIn posts collected — Dave Gerhardt
+- [x] LinkedIn posts collected — Guillaume Moubeche
+- [ ] LinkedIn posts collected — remaining 7 experts (in progress)
+- [ ] YouTube transcripts collected
+- [ ] Additional materials (algorithm report, newsletters)
+
+---
+
+## Commit History Approach
+
+This repo follows incremental commits — one expert batch at a time. Each commit message describes what was added and from which source. Not one giant commit at the end.
+
+---
+
+*Research assignment — 100Hires. Topic: LinkedIn Organic Content Strategy for B2B SaaS.*
