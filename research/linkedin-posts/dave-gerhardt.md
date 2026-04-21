@@ -1,29 +1,8 @@
-# Dave Gerhardt - LinkedIn Content Analysis
-
-## Positioning
-
-Dave Gerhardt is known for modern B2B demand generation and brand-led growth.
-
-## Common Content Themes
-
-- Demand generation
-- Brand marketing
-- Founder voice
-- Community building
-- Marketing leadership
-
-## Writing Style
-
-- Opinion-driven
-- Clear stance
-- Real operator experience
-- Strong storytelling
-- Tactical lessons
-
-## Key Lessons for B2B SaaS
-
-1. Brand creates long-term demand  
-2. Founder visibility matters  
-3. Community increases retention  
-4. Opinions create engagement  
-5. Trust beats short-term hacks
+# 3. Dave Gerhardt
+- **LinkedIn:** https://www.linkedin.com/in/davegerhardt/
+- **Website:** https://exitfive.com/
+- **Followers:** ~174K on LinkedIn
+- **Content type:** Text posts, podcast (Exit Five), community
+- **Why high-signal:** Former VP Marketing at Drift (helped take it to $1B valuation), CMO at Privy. Coined the term "founder brand" and wrote the book on it. Now runs Exit Five — a B2B marketing community of 5,600+ practitioners. He practiced exactly what he teaches: using LinkedIn + personal brand to build pipeline, not just awareness. His content is grounded in CMO-level real decisions.
+- **Key themes:** Founder-led growth, brand building, B2B demand gen, marketing leadership
+- **Collected content:** [`/research/linkedin-posts/dave-gerhardt/`](./linkedin-posts/dave-gerhardt/)
