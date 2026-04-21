@@ -1,4 +1,4 @@
-## 1. Justin Welsh
+## Justin Welsh
 - **LinkedIn:** https://www.linkedin.com/in/justinwelsh/
 - **Website:** https://www.justinwelsh.me/
 - **Followers:** ~600K+ on LinkedIn

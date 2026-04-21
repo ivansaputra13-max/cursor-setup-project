@@ -1,4 +1,4 @@
-# 3. Dave Gerhardt
+# Dave Gerhardt
 - **LinkedIn:** https://www.linkedin.com/in/davegerhardt/
 - **Website:** https://exitfive.com/
 - **Followers:** ~174K on LinkedIn
