@@ -1,35 +1,8 @@
-# Justin Welsh - LinkedIn Content Analysis
-
-## Positioning
-
-Justin Welsh is known for helping professionals build audience and income through simple content systems.
-
-## Common Content Themes
-
-- Solopreneurship
-- Productivity systems
-- Audience building
-- Simplicity
-- Personal freedom
-
-## Writing Style
-
-- Short paragraphs
-- Strong first-line hooks
-- Contrarian statements
-- Clear frameworks
-- Actionable advice
-
-## Example Hook Patterns
-
-- Nobody tells you this about LinkedIn...
-- I wasted years doing this...
-- The easiest way to grow online is...
-
-## Key Lessons for B2B SaaS
-
-1. Simplicity wins over complexity  
-2. Repeat proven themes  
-3. Strong hooks increase reach  
-4. Educational content builds trust  
-5. Personal brand drives inbound demand
+## 1. Justin Welsh
+- **LinkedIn:** https://www.linkedin.com/in/justinwelsh/
+- **Website:** https://www.justinwelsh.me/
+- **Followers:** ~600K+ on LinkedIn
+- **Content type:** Text posts, frameworks, newsletters
+- **Why high-signal:** Built a $2M+ one-person business using LinkedIn as his *only* acquisition channel. His content is systematized — he reverse-engineered what formats convert, not just what gets likes. His "content matrix" framework is widely used by B2B SaaS marketers. No fluff, no agency talk — pure practitioner experience.
+- **Key themes:** Personal brand systems, content consistency, solopreneur GTM, LinkedIn as a lead-gen engine
+- **Collected content:** [`/research/linkedin-posts/justin-welsh/`](./linkedin-posts/justin-welsh/)
