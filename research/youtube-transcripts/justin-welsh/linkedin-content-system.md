@@ -7,7 +7,7 @@
 
 ---
 
-[PASTE TRANSCRIPT DI SINI]
+
 good afternoon everyone I'm hope Dorman
 senior content marketing manager here at
 kajabi so I am particularly thrilled to
