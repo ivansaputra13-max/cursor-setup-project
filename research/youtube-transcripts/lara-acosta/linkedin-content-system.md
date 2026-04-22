@@ -1,3 +1,4 @@
+The Algorithm-Proof LinkedIn Strategy Blowing Up Personal Brands in 2026
 
 **Author:** Lara Acosta 
 **Video URL:** https://www.youtube.com/watch?v=1ph8i-NDz4k

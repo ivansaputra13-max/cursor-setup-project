@@ -20,20 +20,25 @@ The gap I want to close: **a practitioner-sourced playbook that connects LinkedI
 
 ```
 /research
-  sources.md                         ← All 10 experts: LinkedIn, context, why they matter
+  sources.md                         ← All 10 experts: LinkedIn URLs, context, why they matter
   /linkedin-posts
-    /justin-welsh/                   ← Posts collected manually from LinkedIn
-    /dave-gerhardt/
-    /chris-walker/
-    /lara-acosta/
-    /guillaume-moubeche/
-    /ross-simmonds/
-    /april-dunford/
-    /amanda-natividad/
-    /katelyn-bourgoin/
-    /devin-reed/
-  /youtube-transcripts/              ← Transcripts from YouTube content (via yt-dlp)
-  /other/                            ← Newsletters, reports, framework PDFs
+    /justin-welsh/                   ← 5 posts collected
+    /dave-gerhardt/                  ← 3 posts collected
+    /guillaume-moubeche/             ← 3 posts collected
+    /chris-walker/                   ← 3 posts collected
+    /lara-acosta/                    ← 3 posts collected
+    /april-dunford/                  ← 3 posts collected
+    /devin-reed/                     ← 3 posts collected
+    /amanda-natividad/               ← 2 posts collected
+    /katelyn-bourgoin/               ← 2 posts collected
+    /ross-simmonds/                  ← 2 posts collected
+  /youtube-transcripts
+    /justin-welsh/                   ← 1 transcript collected
+    /dave-gerhardt/                  ← in progress
+    /lara-acosta/                    ← in progress
+    /chris-walker/                   ← in progress
+    /richard-van-der-blom/           ← in progress
+  /other/                            ← Newsletters, reports, additional materials
 ```
 
 ---
@@ -49,9 +54,9 @@ The gap I want to close: **a practitioner-sourced playbook that connects LinkedI
 | **Guillaume Moubeche** | CEO of lemlist. Built a $30M ARR SaaS brand almost entirely through founder-led LinkedIn content. |
 | **Ross Simmonds** | CEO of Foundation. The go-to voice on B2B content distribution strategy. |
 | **April Dunford** | Author of *Obviously Awesome*. Positioning expert — how to make LinkedIn content land with the right ICP. |
-| **Amanda Natividad** | VP Marketing at SparkToro. Pioneered "zero-click content" — content designed to give value without requiring a click. |
-| **Katelyn Bourgoin** | "Customer Whisperer." Buyer psychology → content that speaks directly to how B2B buyers make decisions. |
-| **Devin Reed** | Former Head of Content at Gong. Built content systems that tied directly to revenue at one of SaaS's fastest-growing companies. |
+| **Amanda Natividad** | VP Marketing at SparkToro. Pioneered "zero-click content" strategy. |
+| **Katelyn Bourgoin** | "Customer Whisperer." Buyer psychology → content that speaks to how B2B buyers actually decide. |
+| **Devin Reed** | Former Head of Content at Gong. Built content systems tied directly to revenue. |
 
 Full annotations and links → [`/research/sources.md`](./research/sources.md)
 
@@ -59,21 +64,20 @@ Full annotations and links → [`/research/sources.md`](./research/sources.md)
 
 ## How Content Was Collected
 
-### LinkedIn Posts
-Collected manually by visiting each expert's LinkedIn profile → Activity → Posts. Each post saved as a `.md` file with date, engagement metrics (where visible), and post type noted.
+### LinkedIn Posts (29 posts across 10 experts)
+Collected manually by visiting each expert's LinkedIn profile → Activity → Posts. Each post saved as a separate `.md` file with date, engagement metrics where visible, post type, and a "Why collected" annotation explaining relevance to B2B SaaS LinkedIn strategy.
 
 ### YouTube Transcripts
-Collected using `yt-dlp` — free, no API key required.
+Collected manually via YouTube's built-in transcript feature:
+1. Open video on YouTube
+2. Click "..." below video → "Show transcript"
+3. Toggle off timestamps
+4. Copy full transcript → save as `.md`
 
-```bash
-yt-dlp --write-auto-sub --skip-download --sub-lang en \
-  --convert-subs srt \
-  -o "%(uploader)s - %(title)s" \
-  "VIDEO_URL"
-```
+Target: 1 high-signal video per expert (5 experts total).
 
 ### Other Materials
-- Richard van der Blom's LinkedIn Algorithm Insights Report 2024/2025
+- Richard van der Blom's LinkedIn Algorithm Insights Report
 - Exit Five newsletter issues (Dave Gerhardt)
 - SparkToro research referenced by Amanda Natividad
 
@@ -81,21 +85,53 @@ yt-dlp --write-auto-sub --skip-download --sub-lang en \
 
 ## Collection Status
 
-- [x] Topic selected
-- [x] 10 experts identified and annotated in `sources.md`
-- [x] Repo structure created
-- [x] LinkedIn posts collected — Justin Welsh
-- [x] LinkedIn posts collected — Dave Gerhardt
-- [x] LinkedIn posts collected — Guillaume Moubeche
-- [ ] LinkedIn posts collected — remaining 7 experts (in progress)
-- [ ] YouTube transcripts collected
-- [ ] Additional materials (algorithm report, newsletters)
+### LinkedIn Posts
+- [x] Justin Welsh — 5 posts
+- [x] Dave Gerhardt — 3 posts
+- [x] Guillaume Moubeche — 3 posts
+- [x] Chris Walker — 3 posts
+- [x] Lara Acosta — 3 posts
+- [x] April Dunford — 3 posts
+- [x] Devin Reed — 3 posts
+- [x] Amanda Natividad — 2 posts
+- [x] Katelyn Bourgoin — 2 posts
+- [x] Ross Simmonds — 2 posts
+
+**Total: 29 posts collected**
+
+### YouTube Transcripts
+- [x] Justin Welsh — Systemizing Your Content Structure
+- [x] Dave Gerhardt — B2B LinkedIn Ads Playbook: What Works (and What Doesn’t) in 2025
+- [x] Lara Acosta — The Algorithm-Proof LinkedIn Strategy Blowing Up Personal Brands in 2026
+- [x] Chris Walker — Chris Walker Weekly episode 4, Optimizing CRM Data Architecture
+- [x] Richard van der Blom — How to Use LinkedIn’s 2025 Algorithm to Attract Clients and Candidates | Richard van der Blom
+
+### Other Materials
+- [ ] LinkedIn Algorithm Insights Report 2025 (Richard van der Blom)
+- [ ] Exit Five newsletter issues
+- [ ] SparkToro audience research data
 
 ---
 
-## Commit History Approach
+## Key Themes Emerging from Research
 
-This repo follows incremental commits — one expert batch at a time. Each commit message describes what was added and from which source. Not one giant commit at the end.
+Based on content collected so far, five high-signal themes are emerging across experts:
+
+1. **Founder-led content beats company pages** — Personal profiles consistently outperform brand accounts algorithmically and in trust-building (Gerhardt, Moubeche, Walker)
+
+2. **Systems over inspiration** — The experts generating real pipeline treat LinkedIn as a production system, not a creative exercise (Welsh, Acosta, Reed)
+
+3. **Positioning before content** — Without clear ICP positioning, even well-written LinkedIn posts fail to convert (Dunford, Bourgoin, Natividad)
+
+4. **Dark social attribution gap** — Most LinkedIn-driven pipeline is invisible to CRM attribution — measurement must shift to self-reported data (Walker, Natividad)
+
+5. **Zero-click content as the new standard** — Posts that deliver full value in-feed outperform posts that drive to external links, both algorithmically and in trust-building (Natividad, Welsh, Simmonds)
+
+---
+
+## Commit Strategy
+
+This repo follows incremental commits — one expert or content type at a time. Each commit message describes exactly what was added and from which source. Not one giant commit at the end.
 
 ---
 
